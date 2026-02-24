@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Noah Tech AI</title>
+</head>
+
+<body>
+
+<h1>Noah Tech AI 🤖</h1>
+
+<input id="inputBox" placeholder="Ask me something">
+<button onclick="talk()">Send</button>
+
+<p id="response"></p>
+
+<script>
+function talk() {
+let input = document.getElementById("inputBox").value;
+
+let answer = "You said: " + input;
+
+document.getElementById("response").innerText = answer;
+}
+</script>
+
+</body>
+</html>
